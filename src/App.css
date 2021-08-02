@@ -57,18 +57,21 @@ a,.archer{
   background: rgba(255, 0, 0, 0.616);
   top: 0;
   left: 30%;
+  animation: App-logo-spin infinite 7s alternate;
 }
 .home-container::before{
   background: springgreen;
   bottom: 0;
   right: 15%;
+  animation: App-logo-spin infinite 5s alternate;
 }
 .home-container::after,.home-container::before{
   width: 250px;
   height: 250px;
   content: '';
   position: absolute;
-  border-radius: 50%;
+  border-radius: 40%;
+  
 }
 .glass{
   
@@ -82,6 +85,7 @@ a,.archer{
 
 .btn:hover{
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0,.5);
+  border: 2px solid red !important;
 }
 h1{
   margin-bottom: 5px;
@@ -151,11 +155,12 @@ h3::after{
   width: 100%;
   padding: 1em 2em;
   /* outline: none !important; */
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   border: none !important;
   margin-top: 10px;
   margin-bottom: 2px;
   background: rgba(233, 230, 230, 0.473);
+  transition: 250ms ease-in;
 }
 .padding{
   padding: 10px 15px;
@@ -200,6 +205,8 @@ h3::after{
   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.541);
 }
 
+
+
 @media (max-width:870px) {
   p{
       font-size: .8em;
@@ -240,7 +247,7 @@ h3::after{
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s alternate;
   }
 }
 
@@ -261,9 +268,9 @@ h3::after{
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: translateX(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateX(30%);
   }
 }
