@@ -191,18 +191,40 @@ h3::after{
 }
 .card{
   
-  background: url("images/cardbackground.jpg");
+  /* background: url("images/cardbackground.jpg"); */
   background-size: cover;
-  width: 60%;
-  height: 40%;
+  width: 300px;
+  height: 400px;
   border-radius: 10px;
   overflow: hidden;
   transition: 250ms ease-in;
   align-items: center;
+  padding:30px;
 }
-.card:hover{
-  transform: scale(1.1);
-  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.541);
+.card .center-straight .flex p span,
+.card .center-straight .flex p span a{
+  font-size:.8em;
+
+}
+.card .center h1{
+  font-size: 1em;
+  color:black;
+}
+.email{
+  background: url("images/email.png");
+}
+.phone{
+  background: url("images/phone.png");
+}
+.facebook{
+  background: url("images/facebook.png");
+}
+.github{
+  background: url("images/github2.png");
+}
+.email,.phone,.facebook,.github{
+  background-size:cover;
+  outline:none;
 }
 
 
@@ -212,6 +234,7 @@ h3::after{
       font-size: .8em;
   }
   .card{
+    width:350px;
       height: 35%;
   }
   .glass{
@@ -223,14 +246,16 @@ h3::after{
       font-size: .7em;
   }
   .card{
+    width:350px;
       height: 40%;
   }
 }
-@media (max-width:500px) {
+@media (max-width:350px) {
   p{
       font-size: .6em;
   }
   .card{
+    width:350px;
       height: 50%;
   }
   .container{
