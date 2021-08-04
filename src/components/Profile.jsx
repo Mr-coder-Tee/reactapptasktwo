@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-// import imgs from './images/email.png';
+ import email from '../images/email.png';
+ import phone from '../images/phone.png';
+ import facebook from '../images/facebook.png';
+ import github from '../images/github2.png';
 import Tilt from 'react-vanilla-tilt';
 
 class Profile extends Component {
@@ -14,19 +17,19 @@ class Profile extends Component {
                     </div>
                     <div className="center-straight">
                         <div className="flex">
-                            <img className="email"  alt="" />
+                            <img src={email} alt="" />
                             <div><p><span className="archer">Email : manaka@gmail</span></p></div>
                         </div>
                         <div className="flex">
-                            <img className="phone"  alt="" />
+                            <img src={phone} alt="" />
                             <div><p><span className="archer">Phone : 0766166822</span></p></div>
                         </div>
                         <div className="flex">
-                            <img className="facebook"  alt="" />
+                            <img src={facebook} alt="" />
                             <div><p><span><a href="https://www.facebook.com/Tebatso-Manaka">facebook : Terrence Manaka</a></span></p></div>
                         </div>
                         <div  className="flex">
-                            <img className="github"  alt="" />
+                            <img src={github}  alt="" />
                             <div><p><span><a href="https://github.com/Mr-coder-Tee">Github : Mr-coder-Tee</a></span></p></div>
                         </div>
                     </div>

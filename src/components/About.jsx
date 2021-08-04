@@ -1,11 +1,11 @@
   import React, { Component } from 'react';
-
+import profile from "../images/profilepic.jpg";
   const About=()=>{
     return(
         <div>
             <div className="header">
                 <div className="c"><h1>Carriculum Vitae</h1>
-                <img className="myprofile" src="./images/profilepic.jpg" alt="" /></div>
+                <img className="myprofile" src={profile} alt="" /></div>
             </div>
             <div className="personal-info">
                 <div className="header-div"><h3>Personal Information</h3></div>

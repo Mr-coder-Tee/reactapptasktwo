@@ -24,17 +24,17 @@
   height: 100vh;
 }
 .nav{
-  width: 27%;
+  width: 28%;
   height: 100%;
-  background: rgba(233, 230, 230, 0.473);
-  padding-top: 10px;
-  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0,.5);
+  background: #282c34;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0,.5);
 }
 .menu{
   width: 70%;
   height: 100%;
 }
-li,.list{
+.list{
   padding: 1.5em 2em;
   transition: 250ms ease-in;
 }
@@ -52,6 +52,7 @@ a,.archer{
   justify-content: center;
   align-items: center;
   position: relative;
+  
 }
 .home-container::after{
   background: rgba(255, 0, 0, 0.616);
@@ -74,18 +75,18 @@ a,.archer{
   
 }
 .glass{
-  
+  background: silver;
   width: 60%;
   height: 70%;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
   border-radius: 15px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   z-index: 999;
 }
 
 .btn:hover{
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0,.5);
-  border: 2px solid red !important;
+  color: red;
 }
 h1{
   margin-bottom: 5px;
@@ -139,6 +140,7 @@ h3::after{
 }
 .flex{
   transition: 250ms ease-in;
+  padding: 10px;
   margin: 5px;
 }
 .flex:hover{
@@ -150,16 +152,18 @@ h3::after{
   justify-content: center;
   width: 100%;
   background: skyblue;
+  box-shadow: 2px 2px 5px 2px rgba(0,0,0,.3);
 }
 .btn{
   width: 100%;
   padding: 1em 2em;
+  color: white;
+  font-size: 1.5em;
   /* outline: none !important; */
   /* font-size: 1.2em; */
   border: none !important;
   margin-top: 10px;
   margin-bottom: 2px;
-  background: rgba(233, 230, 230, 0.473);
   transition: 250ms ease-in;
 }
 .padding{
@@ -207,25 +211,13 @@ h3::after{
 
 }
 .card .center h1{
-  font-size: 1em;
   color:black;
 }
-.email{
-  background: url("images/email.png");
+.nav ul li{
+  display: flex;
+  justify-content: center;
 }
-.phone{
-  background: url("images/phone.png");
-}
-.facebook{
-  background: url("images/facebook.png");
-}
-.github{
-  background: url("images/github2.png");
-}
-.email,.phone,.facebook,.github{
-  background-size:cover;
-  outline:none;
-}
+
 
 
 

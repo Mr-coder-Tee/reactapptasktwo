@@ -5,10 +5,10 @@ function SideNav(){
     return(
         <div className="nav">
             <ul>
-                <li  className="btn li-tag"><a className="a-tag" href="">Home</a></li>
-                <li className="btn"><a href="/about">About</a></li>
-                <li className="btn"><a href="/profile">Profile</a></li>
-                <li className="btn"><a  href="/users">Users</a></li>
+                <li ><a className="btn" href="/">Home</a></li>
+                <li ><a className="btn" href="/about">About</a></li>
+                <li ><a className="btn" href="/profile">Profile</a></li>
+                <li ><a className="btn"  href="/users">Users</a></li>
                 
                 {/* <Link to="/"><li className="btn" >Home</li></Link>
                 <Link to="/about"><li className="btn" to="/about">About</li></Link>
