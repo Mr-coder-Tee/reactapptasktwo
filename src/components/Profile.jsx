@@ -10,7 +10,7 @@ class Profile extends Component {
     render() { 
         return ( <div className="card-background">
 
-                <Tilt>
+                <Tilt className="tilt">
                 <div className="card">
                     <div className="center">
                         <h1 className="m-2">Tebatso Manaka</h1>

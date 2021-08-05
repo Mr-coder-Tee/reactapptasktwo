@@ -193,25 +193,30 @@ h3::after{
   background: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(66, 245, 164,.9)),url("./images/user-background.jpg");
   
 }
+
 .card{
   
   /* background: url("images/cardbackground.jpg"); */
-  background-size: cover;
+  /* background-size: cover; */
+ 
   width: 300px;
-  height: 400px;
+  height: 450px;
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: 250ms ease-in;
   align-items: center;
-  padding:30px;
+  padding:40px 30px;
+  /* border: 2px solid red; */
 }
 .card .center-straight .flex p span,
 .card .center-straight .flex p span a{
-  font-size:.8em;
+  font-size:1em;
 
 }
 .card .center h1{
   color:black;
+  position: relative;
+  left: -20px;
 }
 .nav ul li{
   display: flex;
