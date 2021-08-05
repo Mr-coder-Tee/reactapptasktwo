@@ -17,7 +17,7 @@ class MainLayOut extends Component {
                  <Router>
                     <div className="menu">
                         <Switch>
-                            <Route path="/" exact component={HomePage}/>
+                            <Route path="" exact component={HomePage}/>
                             <Route path="/profile" component={Profile}/>
                             <Route path="/about" component={About}/>
                             <Route path="/users" component={Users}/>
