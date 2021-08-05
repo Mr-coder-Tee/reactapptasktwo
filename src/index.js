@@ -8,7 +8,7 @@ import MainLayOut from './components/mainLayOut';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainLayOut />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
